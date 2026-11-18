@@ -43,3 +43,41 @@ The models are assessed using accuracy, precision, recall and F1-score. Particul
 ### Author
 Richardson da Silva Reboucas
 
+
+## Project Structure
+
+The repository contains the following files:
+
+- `CA1_Cover_Page_Final.docx` – Assignment cover page.
+- `CA1_Report_Final.docx` – Final analytical report.
+- `CA1_AI_Fluency_Declaration.docx` – AI use declaration.
+- `CA1_Student_Performance_Notebook.ipynb` – Machine learning analysis and experiments.
+- `student-por.csv` – Student performance dataset.
+- `CA1_Split_Comparison_Results.csv` – Model comparison results.
+- `CA1_Split_Comparison_Results_from_notebook.csv` – Notebook-generated results.
+- `DATASET_SOURCE.md` – Dataset source and description.
+- `requirements.txt` – Python dependencies.
+
+## Installation and Execution
+
+Python 3.10 or later is recommended.
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open `CA1_Student_Performance_Notebook.ipynb` and execute the cells in sequence.
+
+Make sure `student-por.csv` is in the same project directory.
+
+## Reproducibility
+
+The project uses fixed random states in the machine learning experiments to support reproducibility. Results may vary slightly across software versions and environments.
