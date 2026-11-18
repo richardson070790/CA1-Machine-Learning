@@ -1,0 +1,7 @@
+CA1 FINAL SUBMISSION CHECKS
+
+Upload each required file separately to Moodle: cover page, report, Jupyter notebook, original dataset, AI Fluency Declaration, and any required supporting results file.
+
+The 5%, 15% and 25% training-size experiment now samples only from the 80% development partition. The same untouched 20% test partition is used for all three comparisons, preventing test-data leakage. Five-fold stratified cross-validation is performed within each training subset.
+
+Before submission: replace the GitHub URL placeholder in the report; ensure the repository has at least 7 genuine development commits; add the lecturer as collaborator and send the invitation; verify the AI declaration contains the exact prompts and evidence required by the brief. Do not invent prompts, commits, or evidence.
